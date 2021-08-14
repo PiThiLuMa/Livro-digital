@@ -1025,6 +1025,12 @@ blockquote {
   }
 }
 
+@media (max-width:495px) {
+  .page-title-alt .bg-shape-3 {
+    display: none;
+}
+} 
+
 /* Social media icons */
 
 
