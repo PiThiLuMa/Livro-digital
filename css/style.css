@@ -274,6 +274,10 @@ a:hover {
   color: #999999 !important;
 }
 
+.text-light-2 {
+  color: #000 !important;
+}
+
 .mb-10 {
   margin-bottom: 10px !important;
 }
@@ -909,3 +913,4 @@ blockquote {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+
