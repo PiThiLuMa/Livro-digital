@@ -952,6 +952,29 @@ blockquote {
   transform: translate(0,0px);
   box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.4);
 }
+
+.social-menu ul li .fab {
+  color: #000000;
+  font-size: 25px;
+  line-height: 53px;
+  transition: .5s;
+}
+.social-menu ul li .fab:hover {
+  color: #ffffff;
+}
+.social-menu ul li a {
+  position: relative;
+  display: block;
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  transition: 0.5s;
+  transform: translate(0,0px);
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.4);
+}
+
 .social-menu ul li a:hover {
   transform: rotate(0deg) skew(0deg) translate(0, -10px);
 }
@@ -965,10 +988,10 @@ blockquote {
   background-color: #e4405f;
 }
 .social-menu ul li:nth-child(4) a:hover {
-  background-color: #cd201f;
+  background-color: #25d366;
 }
 .social-menu ul li:nth-child(5) a:hover {
-  background-color: #0077B5;
+  background-color: #000000;
 }
 
 @media (max-width: 1199px) {
@@ -1018,6 +1041,82 @@ blockquote {
     height: 50px;
   }
 }
+
+@media (min-width: 1200px) {
+  .social-menu ul li .fa {
+    font-size: 17px;
+    line-height: 34px;
+  }
+
+  .social-menu ul li a {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+/* .fab parte */
+
+@media (max-width: 1199px) {
+  .social-menu ul li .fab {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .social-menu ul li a {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .social-menu ul li .fab {
+    font-size: 12.5px;
+    line-height: 25px;
+  }
+
+  .social-menu ul li a {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .social-menu ul li .fab {
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .social-menu ul li a {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .social-menu ul li .fab {
+    font-size: 25px;
+    line-height: 50px;
+  }
+
+  .social-menu ul li a {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .social-menu ul li .fab {
+    font-size: 17px;
+    line-height: 34px;
+  }
+
+  .social-menu ul li a {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+/* outra parte aqui */
 
 @media (max-width:800px) {
   .page-title-alt .bg-shape-6 {
