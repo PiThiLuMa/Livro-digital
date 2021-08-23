@@ -112,26 +112,26 @@ h6, .h6 {
 }
 
 .btn-primary {
-  background: #41228e;
+  background: #B3093F;
   color: #fff;
 }
 
 .btn-primary:active {
-  background: #542cb7 !important;
+  background: #451531 !important;
 }
 
 .btn-primary:hover {
-  background: #542cb7;
+  background: #451531;
 }
 
 .btn-primary.focus, .btn-primary.active {
-  background: #542cb7 !important;
+  background: #451531 !important;
   box-shadow: none !important;
 }
 
 .btn-transparent {
   background: transparent;
-  color: #41228e;
+  color: #B3093F;
   font-weight: bold;
 }
 
@@ -256,7 +256,7 @@ a:hover {
 }
 
 .bg-primary {
-  background: #41228e !important;
+  background: #451531 !important;
 }
 
 .bg-gray {
@@ -435,7 +435,7 @@ textarea.form-control {
 }
 
 .navigation.nav-bg {
-  background-color: #41228e;
+  background-color: #451531;
   padding: 15px 100px;
 }
 
@@ -624,7 +624,7 @@ textarea.form-control {
 
 .active-bg-primary {
   transition: .3s ease;
-  background: #41228e;
+  background: #B3093F;
 }
 
 .active-bg-primary * {
