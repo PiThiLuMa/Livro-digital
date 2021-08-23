@@ -155,3 +155,9 @@
 
 
 })(jQuery);
+
+function acao() {
+    let modal = document.querySelector('.modal-pop')
+
+    modal.style.display = 'block';
+}
